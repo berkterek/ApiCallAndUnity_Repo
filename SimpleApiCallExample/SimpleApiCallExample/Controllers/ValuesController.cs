@@ -75,9 +75,9 @@ namespace SimpleApiCallExample.Controllers
         }
 
         [HttpPost]
-        public void PostItemToInventory(Item newItem)
+        public void PostItemToInventory(Item item)
         {
-            _inventory.Items.Add(newItem);
+            _inventory.Items.Add(item);
         }
 
         [HttpPost]
